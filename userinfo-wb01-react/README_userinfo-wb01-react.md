@@ -6,9 +6,10 @@ npx create-react-app userinfo-wb01-react
 ```
 
 ※create-react-app作成済みのGithub上のコードをCloneした場合は、下記コマンドを行うことで実行可能。
-　cd userinfo-wb01-react
-　npm i
-
+```
+cd userinfo-wb01-react
+npm i
+```
 ### コンポーネントインストール
 ```bash
 cd userinfo-wb01-react
