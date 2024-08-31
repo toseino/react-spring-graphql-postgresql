@@ -152,9 +152,7 @@ INSERT INTO users (name, address) VALUES ('Amelia King', 'Lakeshore Drive 2626 B
 INSERT INTO users (name, address) VALUES ('佐々木 幸子', '広島県広島市中区10-10-10');
 INSERT INTO users (name, address) VALUES ('William Baker', 'Meadow Lane 2727 Meadowbrook');
 INSERT INTO users (name, address) VALUES ('Evelyn Wright', 'Sunset Boulevard 2828 Westview');
-INSERT INTO users (
-
-name, address) VALUES ('中村 薫', '岡山県岡山市北区11-11-11');
+INSERT INTO users (name, address) VALUES ('中村 薫', '岡山県岡山市北区11-11-11');
 INSERT INTO users (name, address) VALUES ('Charlotte Green', 'Elm Street 3030 Greenville');
 INSERT INTO users (name, address) VALUES ('佐藤 実', '神奈川県横浜市西区12-12-12');
 INSERT INTO users (name, address) VALUES ('Henry Martinez', 'Pine Avenue 3131 Hilltop');
