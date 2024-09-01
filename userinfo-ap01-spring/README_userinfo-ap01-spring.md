@@ -22,6 +22,24 @@ Spring Dashboardからアプリの起動・停止が可能です。
 > **注意**  
 > Spring Dashboardへ反映されない場合、mainメソッドを持つファイルから起動することは可能ですが、「SpringApplication cannot be resolved」というエラーが発生することがあります。  
 > 調査の結果、5階層以下のフォルダ直下のプロジェクトは認識されますが、6階層以上の場合は認識されません。  
+> 引き続き「SpringApplication cannot be resolved」が発生している場合は、対象ファイルのエンコードが「UTF-8 with BOM」となっている可能性がある。
+> 下記手順により「UTF-8 without BOM」へ変更する。
+> 1. コマンドパレットを使用する方法
+> 1-1. コマンドパレットを開く
+> ・キーボードショートカット Ctrl + Shift + P（Windows/Linux）または Cmd + Shift + P（macOS）を押して、コマンドパレットを開きます。
+> 1-2. エンコーディングを変更
+> ・コマンドパレットに Change File Encoding と入力し、「Change File Encoding」を選択します。
+> 1-3. 現在のエンコーディングを確認
+> ・現在のファイルのエンコーディングが表示されます。
+> 1-4. UTF-8 without BOMで再保存
+> ・「Save with Encoding」を選択し、次に「UTF-8」を選びます。この際、「UTF-8 without BOM」が自動的に適用されます。
+> 2. VS Code設定からエンコーディングを設定する方法
+> 2-1. 設定を開く
+> ・Ctrl + ,（Windows/Linux）または Cmd + ,（macOS）を押してVS Codeの設定を開きます。
+> 2-2. エンコーディング設定を検索
+> ・検索バーに files.encoding と入力し、表示されるオプションからエンコーディングを設定できます。
+> 2-3. UTF-8 without BOMで保存
+> ・「files.encoding」を「utf8」に設定してファイルを保存します。
 
 ### ファイル構成
 ```
